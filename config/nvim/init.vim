@@ -68,7 +68,6 @@ endif
 
 execute 'source ' . g:xdg_config_home . '/functions.vim'
 execute 'source ' . g:xdg_config_home . '/settings.vim'
-execute 'source ' . g:xdg_config_home . '/keys.vim'
 
 " Local settings
 if filereadable(g:xdg_config_home . '/local.vim')
